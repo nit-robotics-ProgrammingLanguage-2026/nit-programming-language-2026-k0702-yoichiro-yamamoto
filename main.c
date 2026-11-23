@@ -12,6 +12,15 @@ int main(void)
 
 int func3(int a, int b)
 {
+    int r;
     /* TODO: a と b の差の絶対値を返す */
-    return 0;
+    if (a<b)
+    {
+        r=b-a;
+    }
+    else
+    {
+        r=a-b;
+    }
+    return r;
 }
